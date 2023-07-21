@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaurya</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+
+
+
+<div id="page1">
+    
+  <div class="heading1 ">
+    
+    <h1 class="h1" >Shaurya</h1>
+   
+  
+  <h2 class="h2">Sports Fest of IIT Kharagpur</h2>
+
+
+<div class="link2">
+  <button onclick="document.getElementById('id01').style.display='block',document.getElementById('page1').style.display='none'"
+  class="w3-btn">Sign Up</button>
+</div>
+<hr class="op">
+</div>
+</div>
+
+
+
+<div class="modal" id="id01">
+  <span onclick="document.getElementById('id01').style.display='none'"
+  class="w3-closebtn">&times;</span>
+  <form class="modal-content" action="">
+  
+<h1 class="h3">Sign UP Form</h1>
+<div class="form">
+  <div class="container">
+
+<label class=" Name" for="Name"><br>Name</br></label>
+   
+<input required  class="name" id="name"  type="text" minlength="5"   placeholder="Your name(min-5-words)" id="">
+<br>
+
+
+    <label class=" email" for="Email"><br>Email</br></label>
+   
+<input id="email" required class="name"  type="text" pattern="^[a-zA-Z0-9]+@gmail\.com$" placeholder="Only gmail id " id="">
+<br>
+<label class="email" for="password"><br>Password</br></label>
+   
+<input id="password" required class="name"  type="password" placeholder="Minimum 8 Characters" minlength="8"  id="">
+<br>
+<label class="email" for="password"><br>Phone Number</br></label>
+   
+<input id="number" required class="name"  type="number" placeholder="Enter a 10 digit valid number"  pattern="^[0-9]{10}"  id="">
+<br>
+<label class="gender" for="gender">Choose your gender:</label>
+  <select required name="genders" id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Others">Others</option>
+    
+  </select>
+  <br><br>
+  <div class="la">
+  <label  class="sports" for="sports">Sports you are interested in :</label><br>
+       
+        <input type="checkbox" name="favorite_sports" value="Cricket">Cricket <br>   
+        <input type="checkbox" name="favorite_sports" value="Football">Football<br>      
+        <input type="checkbox" name="favorite_sports" value="Chess">Chess<br>      
+        <input type="checkbox" name="favorite_sports" value="Golf">Golf<br>      
+        <input type="checkbox" name="favorite_sports" value="Athletics">Athletics<br>      
+        <input type="checkbox" name="favorite_sports" value="Tennis">Tennis<br>      
+        <input type="checkbox" name="favorite_sports" value="Table-Tennis">Table-Tennis<br>      
+        <input type="checkbox" name="favorite_sports" value="Basketball">Basketball<br>      
+        <input type="checkbox" name="favorite_sports" value="Kabaddi">Kabaddi<br>      
+        <br>    
+      </div>  
+      <br>
+      
+    
+  </select>
+</div>
+<div class="end">
+  <button onclick="displaynone()"
+  class="link4">Cancel</button>
+  <button onclick="myfunc()"
+class="link3">Sign Up</button></div>
+
+
+</div>
+</div>
+</form>
+
+
+</div>
+<script src="script.js" >
+  
+  
+  
+ 
+  
+  
+
+</script>
+
+
+     
+
+
+
+    
+    
+
+
+    
+</body>
+</html>
+
